@@ -22,7 +22,7 @@ while True:
 	print("D: Exit")
 	ans.lower().strip() = input("Ans = ")
     if ans == 1:
-        print("Play")
+		print("Play")
     elif ans == 2:
         print("Database")
     elif ans == 3:
