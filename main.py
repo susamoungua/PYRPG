@@ -1,1 +1,3 @@
-print("hi hi hi hih ihi hih ih ih ")
+import time
+time.sleep(2)
+print("testtesttest")
