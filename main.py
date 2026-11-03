@@ -19,6 +19,8 @@ while True:
     ans = input("access: ")
     if ans == "1":
         prints(20)
+        print("Did it work?")
+        input()
 
     elif ans == "2":
         prints(20)
