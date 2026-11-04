@@ -9,6 +9,7 @@ def prints(x):
 
 prints(10)
 
+settings = False
 
 print("Welcome to PY.T.R.P.G")
 while True:
@@ -22,7 +23,11 @@ while True:
 
     elif ans == "2":
         prints(10)
-        input('persona')
+        print("please enter database")
+        int = input("int: ")
+        aim = input("aim: ")
+        dex = input("dex: ")
+        
 
 
     elif ans == "3":
