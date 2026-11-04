@@ -5,10 +5,9 @@ from time import sleep
 
 # functions
 def prints(x):
-    for i in range(x):
-        print()
+    print("\n" * x)
 
-prints(20)
+prints(10)
 
 
 print("Welcome to PY.T.R.P.G")
@@ -18,12 +17,12 @@ while True:
     print("3: exit")
     ans = input("access: ")
     if ans == "1":
-        prints(20)
+        prints(10)
         print("Did it work?")
-        input()
 
     elif ans == "2":
-        prints(20)
+        prints(10)
+
 
     elif ans == "3":
         break
