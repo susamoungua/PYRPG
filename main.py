@@ -24,7 +24,6 @@ while True:
     elif ans == "2":
         prints(10)
         database.strip() = input("please enter database")
-            
         int = input("int: ")
         aim = input("aim: ")
         dex = input("dex: ")
