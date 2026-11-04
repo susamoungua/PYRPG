@@ -22,6 +22,7 @@ while True:
 
     elif ans == "2":
         prints(10)
+        input('persona')
 
 
     elif ans == "3":
