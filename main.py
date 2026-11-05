@@ -24,7 +24,7 @@ while True:
     elif ans == "2":
         while True:
             prints(10)
-            database.strip() = input("please enter database")
+            database = input("please enter database")
             
             
             int = input("int: ")
