@@ -23,7 +23,7 @@ while True:
 
     elif ans == "2":
         while True:
-            prints(10)
+            prints(20)
             database = input("please enter database")
             if database.strip() == "homo sapien":
                 int = input("int: ")
@@ -31,11 +31,12 @@ while True:
                 dex = input("dex: ")
                 break
             else:
-                print(
+                print("invalid database")
+            settings = True
 
 
     elif ans == "3":
         break
     else:
-        print("Invalid")
+        print("invalid")
 
