@@ -3,6 +3,8 @@
 # imports
 from time import sleep
 
+
+
 # functions
 def prints(x):
     print("\n" * x)
@@ -10,6 +12,11 @@ def prints(x):
 prints(10)
 
 settings = False
+int = 0
+spk = 0
+sgt = 0
+dex = 0
+aim = 0
 
 print("Welcome to PY.T.R.P.G")
 while True:
@@ -29,13 +36,14 @@ while True:
                 int = input("int: ")
                 aim = input("aim: ")
                 dex = input("dex: ")
-                if int+aim+dex == 30:
-                    break
-                else:
-                    print("database must equal 30")
         
             else:
                 print("invalid database")
+
+            if int+aim+dex+sgt+spk ==30:
+                break
+            else:
+                print("database must equal 30")
             settings = True
 
 
