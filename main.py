@@ -17,7 +17,7 @@ while True:
     print("2: persona")
     print("3: exit")
     ans = input("access: ")
-    if ans == "1":
+    if ans == "1" and settings = True:
         prints(10)
         print("Did it work?")
 
@@ -34,4 +34,6 @@ while True:
 
     elif ans == "3":
         break
+    else:
+        print("Invalid")
 
