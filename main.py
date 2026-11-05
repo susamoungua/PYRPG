@@ -17,19 +17,21 @@ while True:
     print("2: persona")
     print("3: exit")
     ans = input("access: ")
-    if ans == "1" and settings = True:
+    if ans == "1" and settings == True:
         prints(10)
-        print("Did it work?")
+        print("insert actual game here")
 
     elif ans == "2":
         while True:
             prints(10)
             database = input("please enter database")
-            
-            
-            int = input("int: ")
-            aim = input("aim: ")
-            dex = input("dex: ")
+            if database.strip() == "homo sapien":
+                int = input("int: ")
+                aim = input("aim: ")
+                dex = input("dex: ")
+                break
+            else:
+                print(
 
 
     elif ans == "3":
