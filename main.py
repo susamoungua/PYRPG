@@ -24,12 +24,16 @@ while True:
     elif ans == "2":
         while True:
             prints(20)
-            database = input("please enter database")
+            database = input("please enter database ")
             if database.strip() == "homo sapien":
                 int = input("int: ")
                 aim = input("aim: ")
                 dex = input("dex: ")
-                break
+                if int+aim+dex == 30:
+                    break
+                else:
+                    print("database must equal 30")
+        
             else:
                 print("invalid database")
             settings = True
