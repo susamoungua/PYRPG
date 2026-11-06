@@ -55,7 +55,7 @@ while True:
             else:
                 print("invalid database")
 
-            if int+aim+dex == 30:
+            if int(inter+aim+dex) == 30:
                 break
             else:
                 print("database must equal 30")
