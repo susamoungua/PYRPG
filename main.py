@@ -47,15 +47,15 @@ while True:
         while True:
             database = input("please enter database ")
             if database.strip() == "homo sapien":
-                int(inter) = input("int: ")
-                int(aim) = input("aim: ")
-                int(dex) = input("dex: ")
+                inter = input("int: ")
+                aim = input("aim: ")
+                dex = input("dex: ")
                 prints(20)
         
             else:
                 print("invalid database")
 
-            if inter+aim+dex == 30:
+            if int(inter) + int(aim) + int(dex) == 30:
                 break
             else:
                 print("database must equal 30")
