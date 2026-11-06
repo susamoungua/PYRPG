@@ -12,7 +12,7 @@ def prints(x):
 prints(10)
 
 settings = False
-int = 0
+inter = 0
 spk = 0
 sgt = 0
 dex = 0
@@ -45,17 +45,17 @@ while True:
         print("a terminal based rpg made by humans")
     elif ans == "2":
         while True:
-            prints(20)
             database = input("please enter database ")
             if database.strip() == "homo sapien":
-                int = input("int: ")
+                inter = input("int: ")
                 aim = input("aim: ")
                 dex = input("dex: ")
+                prints(20)
         
             else:
                 print("invalid database")
 
-            if int+aim+dex+sgt+spk == 30:
+            if int+aim+dex == 30:
                 break
             else:
                 print("database must equal 30")
