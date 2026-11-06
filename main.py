@@ -1,9 +1,7 @@
 # click command 0 for adrian to open commit window, then select changes and click COMMIT AND PUSH to upload new files to git.
 
 # imports
-from time import sleep
-
-
+import sleep
 
 # functions
 def prints(x):
@@ -11,6 +9,7 @@ def prints(x):
 
 prints(10)
 
+# booleans
 settings = False
 inter = 0
 spk = 0
@@ -18,8 +17,10 @@ sgt = 0
 dex = 0
 aim = 0
 
+
 print("Welcome to PY.T.R.P.G")
 while True:
+    # terminal
     print("1: boot")
     print("2: persona")
     print("3: exit")
@@ -44,6 +45,7 @@ while True:
         print("PYTRPG")
         print("a terminal based rpg made by humans")
     elif ans == "2":
+        # charatcher creation
         while True:
             database = input("please enter database ")
             if database.strip() == "homo sapien":
