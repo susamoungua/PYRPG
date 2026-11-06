@@ -25,9 +25,24 @@ while True:
     print("3: exit")
     ans = input("access: ")
     if ans == "1" and settings == True:
-        prints(10)
-        print("insert actual game here")
-
+        prints(20)
+        # refresh screen and play game
+        # intro monolouge
+        print("you are a test dummy")
+        time.sleep(1)
+        print("the people who created you do not care")
+        time.sleep(1)
+        print("you must control this person")
+        time.sleep(2)
+        print()
+        time.sleep(1)
+        print("and escape this space station")
+        time.sleep(1)
+        print("once and for all")
+        time.sleep(1)
+        prints(30)
+        print("PYTRPG")
+        print("a terminal based rpg made by humans")
     elif ans == "2":
         while True:
             prints(20)
@@ -40,7 +55,7 @@ while True:
             else:
                 print("invalid database")
 
-            if int+aim+dex+sgt+spk ==30:
+            if int+aim+dex+sgt+spk == 30:
                 break
             else:
                 print("database must equal 30")
