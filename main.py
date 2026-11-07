@@ -27,27 +27,17 @@ while True:
     if ans == "1" and settings == True:
         prints(20)
         # refresh screen
-        # intro monolouge
-        print("you are a test dummy")
-        time.sleep(1)
-        print("the people who created you do not care")
-        time.sleep(1)
-        print("you must control this person")
-        time.sleep(2)
-        print()
-        time.sleep(1)
-        print("and escape this space station")
-        time.sleep(1)
-        print("once and for all")
-        time.sleep(1)
+        # intro
+        print("in 1892")
+        print("people at a la")
         prints(30)
-        print("PYTRPG")
-        print("a terminal based rpg made by humans")
+        print("P.Y.T.R.P.G")
+        print("a terminal based rpg")
         print("click enter to continue")
         input()
         break
     elif ans == "2":
-        # charatcher creation
+        # persona creation
         while True:
             database = input("please enter database ")
             if database.strip() == "homo sapien":
@@ -73,4 +63,4 @@ while True:
 
 
 # actual game
-print("
+print("actual game here")
