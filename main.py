@@ -2,10 +2,14 @@
 
 # imports
 import time
-
+import random
 # functions
 def prints(x):
     print("\n" * x)
+
+def room(way):
+    # room to explore in!
+    random.randint()
 
 prints(10)
 
@@ -28,11 +32,12 @@ while True:
         prints(20)
         # refresh screen
         # intro
-        print("in 1892")
-        print("people at a la")
-        prints(30)
+        print("your eyes were destroyed.")
+        print('communicate through a terminal.')
+        time.sleep(3)
+        prints(15)
         print("P.Y.T.R.P.G")
-        print("a terminal based rpg")
+        print("a terminal based rougelike")
         print("click enter to continue")
         input()
         break
@@ -44,11 +49,11 @@ while True:
                 inter = input("int: ")
                 aim = input("aim: ")
                 dex = input("dex: ")
-                prints(20)
+                prints(15)
         
             else:
+                prints(15)
                 print("invalid database")
-
             if int(inter) + int(aim) + int(dex) == 30:
                 settings = True
                 break
@@ -59,6 +64,7 @@ while True:
     elif ans == "3":
         break
     else:
+        prints(15)
         print("invalid")
 
 
