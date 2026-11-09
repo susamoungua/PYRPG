@@ -8,18 +8,15 @@ def prints(x):
     print("\n" * x)
 
 def room():
-    # room to explore in!
-    seed = random.randint(1,65)
-    print("a door is on the left and right")
-    ans = input()
-    if ans.lower().strip() == "l":
-        prints(20)
-        print("you go left")
-    if ans.lower().strip() == "r":
-        prints(20)
-        print("you go right")
+    seed = random.randint(1,2)
+    ans = input("> ")
+    if seed == 1:
+        doors = 2
+        chest = 1
     else:
         print("invalid")
+    
+    
     
 
     
@@ -40,7 +37,7 @@ while True:
     print("1: boot")
     print("2: persona")
     print("3: exit")
-    ans = input("access: ")
+    ans = input("> ")
     if ans == "1" and settings == True:
         prints(20)
         # refresh screen
