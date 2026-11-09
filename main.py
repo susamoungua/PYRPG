@@ -7,9 +7,21 @@ import random
 def prints(x):
     print("\n" * x)
 
-def room(way):
+def room():
     # room to explore in!
-    random.randint()
+    print("a door is on the left and right")
+    ans = input()
+    if ans.lower().strip() == "l":
+        prints(20)
+        print("you go left")
+    if ans.lower().strip() == "r":
+        prints(20)
+        print("you go right")
+    else:
+        print("invalid")
+    
+
+    
 
 prints(10)
 
