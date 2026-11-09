@@ -9,6 +9,7 @@ def prints(x):
 
 def room():
     # room to explore in!
+    seed = random.randint(1,65)
     print("a door is on the left and right")
     ans = input()
     if ans.lower().strip() == "l":
