@@ -15,12 +15,7 @@ def room():
         chest = 1
     else:
         print("invalid")
-    
-    
-    
-
-    
-
+        
 prints(10)
 
 # booleans
