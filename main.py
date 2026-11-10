@@ -8,8 +8,8 @@ def prints(x):
     print("\n" * x)
 
 def room():
+    # a room to go through! woohoo!
     seed = random.randint(1,2)
-    ans = input("> ")
     if seed == 1:
         doors = 2
         chest = 1
@@ -19,9 +19,15 @@ def room():
     else:
         print("invalid")
     prints(15)
-    print("a room has " + str(doors) + " doors, with " + str(chest) + " chests."
-    for i in range(doors)
-          if ans == i:
+    print("a room has " + str(doors) + " doors, with " + str(chest) + " chests.")
+    ans = input("> ")
+    for i in range(doors):
+        if ans == str("d" + str(i+1)):
+            print("you went through a door")
+            # go through door
+        elif ans == str("c" + str(i+1)):
+            print("you went through a chest")
+            # insert chest function here
         
 prints(10)
 
