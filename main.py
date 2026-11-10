@@ -13,8 +13,15 @@ def room():
     if seed == 1:
         doors = 2
         chest = 1
+    elif seed == 2:
+        doors = 3
+        chest = 3
     else:
         print("invalid")
+    prints(15)
+    print("a room has " + str(doors) + " doors, with " + str(chest) + " chests."
+    for i in range(doors)
+          if ans == i:
         
 prints(10)
 
