@@ -88,3 +88,8 @@ while True:
 
 # actual game
 print("actual game here")
+while True:
+    ans = input("press enter to continue")
+    if ans == "q":
+        break
+    room()
